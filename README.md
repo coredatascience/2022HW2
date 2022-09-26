@@ -1,5 +1,4 @@
 ## Homework #2
-### Due XX/XX/2022 by 11:59pm EST
 
 Vaccines have helped save millions of lives. In the 19th century, before herd immunization was achieved through vaccination programs, deaths from infectious diseases like smallpox and polio were common. However, today, despite all the scientific evidence for their importance, vaccination programs have become somewhat controversial.
 
@@ -32,7 +31,7 @@ data(us_contagious_diseases)
 ## Your code here
 ```
 
-4. Plot the Measles disease rates per year for California. Use the square root transformation. Make sure that the numbers $0,4,16,36, \dots, 1444$ (a sequence of squares of even numbers) appear on the y-axis. Find out when the Measles vaccine was introduced and add a vertical line to the plot to show this year.
+4. Plot the Measles disease rates per year for California. Use the square root transformation. Make sure that the numbers $4,16,36, \dots, 1444$ (a sequence of squares of even numbers) appear on the y-axis. Find out when the Measles vaccine was introduced and add a vertical line to the plot to show this year.
 
 ```{r}
 ## Your code here
@@ -58,4 +57,4 @@ data(us_contagious_diseases)
 
 8. The plots above provide strong evidence showing the benefits of vaccines: as vaccines were introduced, disease rates were reduced. But did autism increase? In the `autism_prevalence_CA.rData` file, you will find a data frame with yearly autism rates reported by the California Department of Developmental Services. The data was pulled from Figure 1 in the article "California Autism Prevalence Trends from 1931 to 2014 and Comparison to National ASD Data from IDEA and ADDM" (Nevison C, Blaxill M, and Zahorodny W., 2018) [(link)](https://link.springer.com/content/pdf/10.1007/s10803-018-3670-2.pdf). Make a plot to show if California autism rates have increased and if the increase coincides with the introduction of vaccines. In a few sentences, describe any conclusions that you can draw from your plot. 
 
-9. Use data exploration to determine if other diseases (besides Measles) have enough data to explore the effects of vaccines. Prepare a report (minimum 1 paragraph, maximum 3 paragraphs) with as many plots as you think are necessary to provide a case for the benefit of vaccines. Note that if you are using an older version of the `dslabs` package (pre-December 2019), there was a data entry mistake and the data for Polio and Pertussis are exactly the same (the Pertussis data was erroneously duplicated and recorded under Polio).
+9. Use data exploration to determine if other diseases (besides Measles) have enough data to explore the effects of vaccines. Prepare a report (minimum 1 paragraph, maximum 3 paragraphs) with as many plots as you think are necessary to provide a case for the benefit of vaccines. 
